@@ -6,7 +6,8 @@
 
 ## docker-compose.yml
 
-<version: '3'
+``` bash
+version: '3'
 services:
   jenkins:
     container_name: jenkins
@@ -21,5 +22,4 @@ services:
       - net
 networks:
   net:
-
->
+```
